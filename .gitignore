@@ -1,0 +1,46 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+#.gitignore, .eslintignore, .prettierignore
+    
+# Pinegrow temp folders
+_pg* 
+
+## optional
+pinegrow.json
+
+
+## optional
+## Uncomment the below as per your needs
+## add any d.ts files that are auto-generated, for eg,
+# auto-imports.d.ts
+# components.d.ts
+# composables.d.ts
+## rollup visualizer
+stats.html
